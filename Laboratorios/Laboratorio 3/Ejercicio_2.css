@@ -10,7 +10,7 @@ body{
     margin: 0;
 }
 
-button{
+button:hover{
     padding: 0.5em 1em;
     border-radius: 2em;
     border: 0;
@@ -34,11 +34,43 @@ button{
     flex-direction: column;
 }
 
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+    color: black;
+    text-decoration-line: underline;
+}
+
 img{
     width: 5em;
     height: 5em;
 }
 
 .iconos{
-    display: flex
+    display: flex;
+    width: 100%;
+    flex-flow: row wrap;
+    justify-content: center;
+    background-color: dimgray;
+}
+
+.header, .footer{
+    display: flex;
+    height: 10%;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.header{
+    justify-content: flex-end;
+    padding-right: 2em;
+}
+
+.header button{
+    margin: 0.5em 1em;
+}
+
+.footer{
+    justify-content: space-between;
+    padding: 0.3em;
 }
