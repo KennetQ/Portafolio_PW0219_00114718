@@ -1,0 +1,13 @@
+$color-primary:violet;
+$color-secundary: blue;
+$color-terciary: pink;
+$color-dark: black;
+$color-white: white;
+$font-size: 1 1em;
+
+@mixin set-dimentions($width, $height) {
+    width: $width;
+    height: $height;
+}
+
+

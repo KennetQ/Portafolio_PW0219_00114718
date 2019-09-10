@@ -1,0 +1,40 @@
+main{
+    @include set-dimentions(5%, auto);
+    display: flex;
+    flex-direction: colum;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    @include set-dimentions(5em, 5em);
+}
+
+h1{
+    font-family: 'Anton', sans-serif;
+    font-size: 5em;
+    color: black;
+    text-decoration-line: underline;
+}
+
+
+
+body{
+    @include set-dimentions(auto, 100vh);
+    box-sizing: border-bnox;
+    margin: 0;
+}
+
+
+button:hover{
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    border: 0;
+    opacity: 0.8;
+}
+
+.container{
+    @include set-dimentions(100%,100%);
+    display: flex;
+    flex-direction: column;
+}
